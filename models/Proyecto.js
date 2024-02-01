@@ -6,7 +6,7 @@ const proyectoShema = mongoose.Schema({
         trim: true,
         required: true,
     },
-    descrition: {
+     descripcion: {
         type: String,
         trim: true,
         required: true,
@@ -34,5 +34,5 @@ const proyectoShema = mongoose.Schema({
     timestamps: true,
 });
 
-const Proyecto = mongoose.modl('Proyecto', proyectoShema);
+const Proyecto = mongoose.model('Proyecto', proyectoShema);
 export default Proyecto;
