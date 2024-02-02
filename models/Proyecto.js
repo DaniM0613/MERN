@@ -1,6 +1,6 @@
 import mongoose  from "mongoose";
 
-const proyectoShema = mongoose.Schema({
+const proyectoSchema = mongoose.Schema({
     nombre: {
         type: String,
         trim: true,
@@ -34,5 +34,5 @@ const proyectoShema = mongoose.Schema({
     timestamps: true,
 });
 
-const Proyecto = mongoose.model('Proyecto', proyectoShema);
+const Proyecto = mongoose.model('Proyecto', proyectoSchema);
 export default Proyecto;
