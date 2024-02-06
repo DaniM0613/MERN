@@ -2,7 +2,7 @@
 
 const Registrar = () => {
   return (
-    <div>Registrar</div>
+    <div>Registrar Nuevo Archivo</div>
   )
 }
 
